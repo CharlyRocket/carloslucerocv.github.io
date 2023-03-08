@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+}
+body {
+    max-width: 70rem;
+    margin: 0 auto;
+    box-shadow: -2px 7px 12px 1px rgb(0 0 0 / 75%);
+    padding: 20px 50px 20px 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1.title-curriculum {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    /* max-width: 70rem; */
+}
+.general-description-container,
+.cv-profile {
+    max-width: 60rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+    margin: 0 auto;
+}
+
+.profile-info {
+    /* max-height: 140px; */
+    background-color: #f77149;
+    width: 100%;
+    padding: 25px;
+}
+.profile-img {
+
+}
+.profile-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid 10px #f77149;
+    position: absolute;
+    top: -50px;
+    left: -20px;
+    margin: 0;
+}
+
+h2.name {
+    text-align: right;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.profile-description {
+    text-align: right;
+}
+
+ul.skin {
+    display: inline-flex;
+}
+
+li.item-skin {
+    list-style: none;
+    margin-right: 10px;
+    border-right: 2px solid;
+    padding-right: 10px;
+}
+
+li.item-skin:last-child {
+    list-style: none;
+    border: none;
+}
+.general-description-container{
+    margin-top: 4rem;
+}
+.resumen-description,
+.skil-description {
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 10px;
+}
+.skill-container {
+    width: 25%;
+    margin-right: 11px;
+    padding-right: 14px;
+}
+.resumen-container {
+    width: 75%;
+}
+.item-skill,
+.item-resumen {
+    margin-bottom: 20px;
+}
+.title-resumen,
+.title-skin {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-bottom: 5px solid red;
+    line-height: 2rem;
+}
+
+
+.social-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align-last: center;
+}
+
+
+
+.social-item {
+    width: 33%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.icon-container {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    border-radius: 50%;
+    border: 5px solid #706f6f3f;
+    background-color: lightgrey;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon-container:hover {
+    background-color: #f77149;
+    border: 5px solid red;
+}
+
+.icon-social {
+    height: 40px;
+    width: 40px;
+}
+
+.social-link {
+    margin-top: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
